@@ -2,6 +2,8 @@
 
 _Thu Jan 1 2026_ (Happy New Year! 🎉)
 
+Notes from reading [this documentation](https://developer.chrome.com/docs/devtools/overview)
+
 ## What I already know
 
 - DevTools are a panel in the browser that can show you all kinds of information about what has been sent to it. (Elements tab)
@@ -18,3 +20,24 @@ _Thu Jan 1 2026_ (Happy New Year! 🎉)
 3. Know some use-cases for every tab in the panel.
 4. Find 1 useful devtool extension, or think of an idea for one.
 5. **Identify three concrete ways to implement what I learn today in my ATOMS UI workflow.**
+
+## Overview
+
+- Open by right-clicking on any browser page and selecting Inspect Element :)
+- Elements tab: Can directly modify css values in the Styles, Computed etc. tabs in the extra section, and see the results show on the page.
+- Device mode button allows you to specify all kinds of different devices, not just generic phone or computer
+
+![responsive-device-mode](assets/responsive-device-mode.png)
+
+- When you get a console warning/error, you can click the filename to go to that file in the sources panel, and then can set breakpoints there. (See [this link](https://developer.chrome.com/docs/devtools/javascript/breakpoints/) for more
+- You can use dev-tools as you IDE (lol) by setting up a "workspace"
+- The console panel has a number of javascript "shortcuts" for faster debugging (console utils)
+
+```
+$$
+$x
+copy()
+debug()
+dir()
+monitor()
+```
